@@ -26,9 +26,25 @@
     { "id": "prod-ba1f20e8-020", "name": "Pro Item 20", "category": "sports", "price": 295.58, "stock": 90, "rating": 1 }
   ],
   "aggregations": {
-    "electronics": {
-      "count": 8,
-      "inventoryValue": 144356.25
-    }
+  "electronics": {
+    "count": 8,
+    "inventoryValue": 144356.25
+  },
+  "books": {
+    "count": 3,
+    "inventoryValue": 73441.86
+  },
+  "clothing": {
+    "count": 5,
+    "inventoryValue": 66488.43
+  },
+  "home": {
+    "count": 2,
+    "inventoryValue": 56885.76
+  },
+  "sports": {
+    "count": 2,
+    "inventoryValue": 31051.64
   }
+}
 }
