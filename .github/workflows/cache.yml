@@ -21,10 +21,4 @@ jobs:
           key: cache-65bb291
 
       - name: prime-cache-65bb291
-        run: |
-          echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
-
-      - name: Create cache directory
-        run: |
-          mkdir -p ~/.cache/demo
-          echo "demo data" > ~/.cache/demo/data.txt
+        run: echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
